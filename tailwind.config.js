@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -5,7 +7,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      starbucks: '#00704A'
+      ...colors,
+      starbucks: '#00704A',
+      greenlight: '#acccbc',
+      greenstar: '#bfe0c8'
     }
   },
   plugins: [],

@@ -25,20 +25,20 @@ function NavBar() {
                 </div>
             </div>
             <div></div>
-            <div className='flex justify-center items-center space-x-7'>
+            <div className='flex justify-center items-center space-x-14'>
                 <div className='flex justify-center items-center space-x-2  hover:cursor-pointer hover:text-starbucks
                 font-semibold text-sm'>
                     <FaMapMarkerAlt size={'1.4rem'} />
                     <h3>Find a store</h3>
                 </div>
                 <div className='flex justify-center items-center space-x-3 font-semibold text-sm'>
-                    <div className='flex px-4 py-1 rounded-2xl border border-black'>
+                    <div className='flex px-4 py-1 rounded-2xl border border-black hover:bg-gray-100'>
                         <button className=''>
                             Sign in
                         </button>
                     </div>
-                    <div className='flex px-4 py-1 rounded-2xl border border-black'>
-                        <button className=''>
+                    <div className='flex px-4 py-1 rounded-2xl border border-black bg-black text-white hover:opacity-75 '>
+                        <button>
                             Join now
                         </button>
                     </div>
