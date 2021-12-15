@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Boxes from '../components/Boxes'
+import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <NavBar />
       <Boxes />
+      <Footer />
     </div>
   )
 }

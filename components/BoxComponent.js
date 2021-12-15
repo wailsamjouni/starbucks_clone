@@ -2,7 +2,7 @@ import React from 'react'
 
 function BoxComponent({ text1, text2, description, button, imgUrl }) {
     return (
-        <section className='flex w-screen justify-center items-center bg-red-600 space-x-52 my-7' >
+        <section className='flex w-screen justify-center items-center bg-starred space-x-52 my-7' >
             <div className='flex flex-col justify-center items-center space-y-4 pl-24 text-center'>
                 <div className='flex flex-col justify-center items-center'>
                     <h1 className='font-bold text-5xl tracking-widest text-white mb-4'>{text1}</h1>

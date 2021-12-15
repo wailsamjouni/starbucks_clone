@@ -9,8 +9,10 @@ module.exports = {
     colors: {
       ...colors,
       starbucks: '#00704A',
-      greenlight: '#acccbc',
-      greenstar: '#bfe0c8'
+      greenlight: '#D4E9E2',
+      greenstar: '#bfe0c8',
+      starred: '#D50B32',
+      buttonhover: '#C1D7D0'
     }
   },
   plugins: [],
