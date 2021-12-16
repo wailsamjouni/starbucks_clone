@@ -13,6 +13,9 @@ module.exports = {
       greenstar: '#bfe0c8',
       starred: '#D50B32',
       buttonhover: '#C1D7D0'
+    },
+    fontFamily: {
+      'quickstand': ['quickstand'],
     }
   },
   plugins: [],
